@@ -1,12 +1,15 @@
 {
   "name": "guitom",
-  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
   "scripts": {},
-  "devDependencies": {
-    "lerna": "^8.1.8"
+  "peerDependencies": {
+    "eslint": "^9.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "typescript": "^5.6.2"
   },
-  "workspaces": [
-    "packages/eslint",
-    "packages/tsconfig"
-  ]
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
